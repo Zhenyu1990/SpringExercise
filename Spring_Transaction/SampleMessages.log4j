@@ -1,0 +1,576 @@
+<log4j:event logger="org.springframework.test.context.junit4.SpringJUnit4ClassRunner" timestamp="1472110390479" level="DEBUG" thread="main">
+<log4j:message><![CDATA[SpringJUnit4ClassRunner constructor called with [class com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.BootstrapUtils" timestamp="1472110390505" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.AbstractDelegatingSmartContextLoader" timestamp="1472110390550" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@49e4cb85 declaringClass = 'com.imooc.test.SpringTransactionDemo', classes = '{}', locations = '{classpath:applicationContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.ActiveProfilesUtils" timestamp="1472110390556" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.DefaultTestContextBootstrapper" timestamp="1472110390567" level="DEBUG" thread="main">
+<log4j:message><![CDATA[@TestExecutionListeners is not present for class [com.imooc.test.SpringTransactionDemo]: using defaults.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.DefaultTestContextBootstrapper" timestamp="1472110390576" level="INFO" thread="main">
+<log4j:message><![CDATA[Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.DefaultTestContextBootstrapper" timestamp="1472110390610" level="INFO" thread="main">
+<log4j:message><![CDATA[Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.DefaultTestContextBootstrapper" timestamp="1472110390618" level="INFO" thread="main">
+<log4j:message><![CDATA[Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7f560810, org.springframework.test.context.support.DirtiesContextTestExecutionListener@69d9c55, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13a57a3b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7ca48474]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.annotation.ProfileValueUtils" timestamp="1472110390653" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Retrieved @ProfileValueSourceConfiguration [null] for test class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.annotation.ProfileValueUtils" timestamp="1472110390654" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.annotation.ProfileValueUtils" timestamp="1472110390657" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Retrieved @ProfileValueSourceConfiguration [null] for test class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.annotation.ProfileValueUtils" timestamp="1472110390657" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.annotation.ProfileValueUtils" timestamp="1472110390658" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Retrieved @ProfileValueSourceConfiguration [null] for test class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.annotation.ProfileValueUtils" timestamp="1472110390659" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.annotation.ProfileValueUtils" timestamp="1472110390662" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Retrieved @ProfileValueSourceConfiguration [null] for test class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.annotation.ProfileValueUtils" timestamp="1472110390662" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.imooc.test.SpringTransactionDemo]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.DependencyInjectionTestExecutionListener" timestamp="1472110390665" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Performing dependency injection for test context [[DefaultTestContext@6cc4c815 testClass = SpringTransactionDemo, testInstance = com.imooc.test.SpringTransactionDemo@3a82f6ef, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@100fc185 testClass = SpringTransactionDemo, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.AbstractDelegatingSmartContextLoader" timestamp="1472110390666" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@100fc185 testClass = SpringTransactionDemo, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.AbstractGenericContextLoader" timestamp="1472110390666" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@100fc185 testClass = SpringTransactionDemo, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1472110390808" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Adding [systemProperties] PropertySource with lowest search precedence]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1472110390809" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Adding [systemEnvironment] PropertySource with lowest search precedence]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.StandardEnvironment" timestamp="1472110390809" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.XmlBeanDefinitionReader" timestamp="1472110390822" level="INFO" thread="main">
+<log4j:message><![CDATA[Loading XML bean definitions from class path resource [applicationContext.xml]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.DefaultDocumentLoader" timestamp="1472110390845" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.PluggableSchemaResolver" timestamp="1472110390889" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loading schema mappings from [META-INF/spring.schemas]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.PluggableSchemaResolver" timestamp="1472110390892" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.PluggableSchemaResolver" timestamp="1472110390894" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.PluggableSchemaResolver" timestamp="1472110390968" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Found XML schema [http://www.springframework.org/schema/context/spring-context-4.1.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.PluggableSchemaResolver" timestamp="1472110390979" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader" timestamp="1472110390991" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loading bean definitions]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver" timestamp="1472110391002" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.xml.XmlBeanDefinitionReader" timestamp="1472110391025" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Loaded 4 bean definitions from location pattern [classpath:applicationContext.xml]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.GenericApplicationContext" timestamp="1472110391040" level="INFO" thread="main">
+<log4j:message><![CDATA[Refreshing org.springframework.context.support.GenericApplicationContext@46d56d67: startup date [Thu Aug 25 15:33:11 CST 2016]; root of context hierarchy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.GenericApplicationContext" timestamp="1472110391041" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Bean factory for org.springframework.context.support.GenericApplicationContext@46d56d67: org.springframework.beans.factory.support.DefaultListableBeanFactory@4b53f538: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,accountService,accountDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391061" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391061" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391087" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391090" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391132" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391132" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391133" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391217" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.MutablePropertySources" timestamp="1472110391218" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Adding [environmentProperties] PropertySource with lowest search precedence]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.PropertySourcesPlaceholderConfigurer" timestamp="1472110391218" level="INFO" thread="main">
+<log4j:message><![CDATA[Loading properties file from class path resource [jdbc.properties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.MutablePropertySources" timestamp="1472110391219" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Adding [localProperties] PropertySource with lowest search precedence]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391225" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.driverClass' in [environmentProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391225" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.driverClass' in [systemProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391225" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.driverClass' in [systemEnvironment]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391225" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Could not find key 'jdbc.driverClass' in any property source. Returning [null]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391225" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.driverClass' in [localProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391226" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Found key 'jdbc.driverClass' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391228" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.url' in [environmentProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391228" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.url' in [systemProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391228" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.url' in [systemEnvironment]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391228" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Could not find key 'jdbc.url' in any property source. Returning [null]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391228" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.url' in [localProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391229" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql:///spring_transaction']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391229" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.username' in [environmentProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391229" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.username' in [systemProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391229" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.username' in [systemEnvironment]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391229" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Could not find key 'jdbc.username' in any property source. Returning [null]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391229" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.username' in [localProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391230" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Found key 'jdbc.username' in [localProperties] with type [String] and value 'admin']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391230" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.password' in [environmentProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391230" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.password' in [systemProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391230" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.password' in [systemEnvironment]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391231" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Could not find key 'jdbc.password' in any property source. Returning [null]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391231" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Searching for key 'jdbc.password' in [localProperties]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.core.env.PropertySourcesPropertyResolver" timestamp="1472110391231" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Found key 'jdbc.password' in [localProperties] with type [String] and value '123456']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391233" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391233" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391234" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391234" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391234" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391234" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391235" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391235" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391235" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391235" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391296" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391297" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391297" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391297" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391297" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391297" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391297" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391297" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391297" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391298" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.GenericApplicationContext" timestamp="1472110391301" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@75f32542]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.GenericApplicationContext" timestamp="1472110391303" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@38c5cc4c]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391305" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b53f538: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,accountService,accountDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391305" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391305" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'dataSource']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110391305" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'dataSource']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391333" level="INFO" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391340" level="DEBUG" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[Could not find resource path text file for path '/com/mchange/v2/cfg/vmConfigResourcePaths.txt'. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391340" level="DEBUG" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[Added paths from resource path text file at '/mchange-config-resource-paths.txt']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391341" level="DEBUG" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391341" level="DEBUG" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391341" level="DEBUG" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391341" level="DEBUG" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391341" level="DEBUG" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1472110391342" level="DEBUG" thread="MLog-Init-Reporter">
+<log4j:message><![CDATA[Config available to MLog library: com.mchange.v2.cfg.BasicMultiPropertiesConfig@36234370 [ propertiesByResourcePaths -> {/com/mchange/v2/log/default-mchange-log.properties={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, /={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=D:\Program Files\Java\jre1.8\bin, java.vm.version=25.92-b14, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction, java.runtime.version=1.8.0_92-b14, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=D:\Program Files\Java\jre1.8\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Zhenyu\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, java.library.path=D:\Program Files\Java\jre1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre1.8/bin/server;D:/Program Files/Java/jre1.8/bin;D:/Program Files/Java/jre1.8/lib/amd64;D:\Program Files\Python35\Scripts\;D:\Program Files\Python35\;D:\Python27\;D:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_92\bin;C:\Program Files (x86)\Skype\Phone\;D:\Program Files\mysql-5.7.13-winx64\bin;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;d:\Ruby23-x64\bin;C:\Users\Zhenyu\AppData\Roaming\npm;D:\Program Files\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Zhenyu, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, java.class.path=C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\build\classes;D:\Program Files\apache-tomcat-7.0.69\lib\annotations-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-ant.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-ha.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-tribes.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina.jar;D:\Program Files\apache-tomcat-7.0.69\lib\ecj-4.4.2.jar;D:\Program Files\apache-tomcat-7.0.69\lib\el-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jasper-el.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jasper.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jsp-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\servlet-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-coyote.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-dbcp.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-es.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-fr.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-ja.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-jdbc.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-util.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat7-websocket.jar;D:\Program Files\apache-tomcat-7.0.69\lib\websocket-api.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\c3p0-0.9.5.2.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\commons-logging-1.2.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\hamcrest-core-1.3.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\junit-4.12.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\log4j-1.2.17.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\mchange-commons-java-0.2.11.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\mysql-connector-java-5.1.39-bin.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-aop-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-beans-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-context-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-core-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-expression-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-jdbc-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-test-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-tx-4.1.9.RELEASE.jar;/D:/Program Files/eclipse/configuration/org.eclipse.osgi/362/0/.cp/;/D:/Program Files/eclipse/configuration/org.eclipse.osgi/361/0/.cp/, user.name=Zhenyu, java.vm.specification.version=1.8, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 9261 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test com.imooc.test.SpringTransactionDemo:demo1, java.home=D:\Program Files\Java\jre1.8, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_92, java.ext.dirs=D:\Program Files\Java\jre1.8\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=D:\Program Files\Java\jre1.8\lib\resources.jar;D:\Program Files\Java\jre1.8\lib\rt.jar;D:\Program Files\Java\jre1.8\lib\sunrsasign.jar;D:\Program Files\Java\jre1.8\lib\jsse.jar;D:\Program Files\Java\jre1.8\lib\jce.jar;D:\Program Files\Java\jre1.8\lib\charsets.jar;D:\Program Files\Java\jre1.8\lib\jfr.jar;D:\Program Files\Java\jre1.8\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}}, propertiesByPrefixes -> {com={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, ={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=D:\Program Files\Java\jre1.8\bin, java.vm.version=25.92-b14, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction, java.runtime.version=1.8.0_92-b14, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=D:\Program Files\Java\jre1.8\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Zhenyu\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, java.library.path=D:\Program Files\Java\jre1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre1.8/bin/server;D:/Program Files/Java/jre1.8/bin;D:/Program Files/Java/jre1.8/lib/amd64;D:\Program Files\Python35\Scripts\;D:\Program Files\Python35\;D:\Python27\;D:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_92\bin;C:\Program Files (x86)\Skype\Phone\;D:\Program Files\mysql-5.7.13-winx64\bin;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;d:\Ruby23-x64\bin;C:\Users\Zhenyu\AppData\Roaming\npm;D:\Program Files\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Zhenyu, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, user.name=Zhenyu, java.class.path=C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\build\classes;D:\Program Files\apache-tomcat-7.0.69\lib\annotations-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-ant.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-ha.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-tribes.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina.jar;D:\Program Files\apache-tomcat-7.0.69\lib\ecj-4.4.2.jar;D:\Program Files\apache-tomcat-7.0.69\lib\el-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jasper-el.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jasper.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jsp-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\servlet-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-coyote.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-dbcp.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-es.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-fr.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-ja.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-jdbc.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-util.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat7-websocket.jar;D:\Program Files\apache-tomcat-7.0.69\lib\websocket-api.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\c3p0-0.9.5.2.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\commons-logging-1.2.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\hamcrest-core-1.3.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\junit-4.12.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\log4j-1.2.17.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\mchange-commons-java-0.2.11.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\mysql-connector-java-5.1.39-bin.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-aop-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-beans-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-context-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-core-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-expression-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-jdbc-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-test-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-tx-4.1.9.RELEASE.jar;/D:/Program Files/eclipse/configuration/org.eclipse.osgi/362/0/.cp/;/D:/Program Files/eclipse/configuration/org.eclipse.osgi/361/0/.cp/, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=D:\Program Files\Java\jre1.8, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 9261 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test com.imooc.test.SpringTransactionDemo:demo1, java.specification.vendor=Oracle Corporation, user.language=zh, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_92, java.ext.dirs=D:\Program Files\Java\jre1.8\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=D:\Program Files\Java\jre1.8\lib\resources.jar;D:\Program Files\Java\jre1.8\lib\rt.jar;D:\Program Files\Java\jre1.8\lib\sunrsasign.jar;D:\Program Files\Java\jre1.8\lib\jsse.jar;D:\Program Files\Java\jre1.8\lib\jce.jar;D:\Program Files\Java\jre1.8\lib\charsets.jar;D:\Program Files\Java\jre1.8\lib\jfr.jar;D:\Program Files\Java\jre1.8\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, com.mchange.v2.log.jdk14logging.suppressStackWalk=true, sun.desktop=windows, sun.cpu.isalist=amd64}, sun.management={sun.management.compiler=HotSpot 64-Bit Tiered Compilers}, java.vm={java.vm.version=25.92-b14, java.vm.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vm.specification.version=1.8, java.vm.vendor=Oracle Corporation, java.vm.info=mixed mode}, line={line.separator=
+}, sun.boot.class={sun.boot.class.path=D:\Program Files\Java\jre1.8\lib\resources.jar;D:\Program Files\Java\jre1.8\lib\rt.jar;D:\Program Files\Java\jre1.8\lib\sunrsasign.jar;D:\Program Files\Java\jre1.8\lib\jsse.jar;D:\Program Files\Java\jre1.8\lib\jce.jar;D:\Program Files\Java\jre1.8\lib\charsets.jar;D:\Program Files\Java\jre1.8\lib\jfr.jar;D:\Program Files\Java\jre1.8\classes}, sun.java={sun.java.launcher=SUN_STANDARD, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 9261 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test com.imooc.test.SpringTransactionDemo:demo1}, sun={sun.arch.data.model=64, sun.java.launcher=SUN_STANDARD, sun.desktop=windows, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 9261 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test com.imooc.test.SpringTransactionDemo:demo1, sun.os.patch.level=Service Pack 1, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, sun.boot.class.path=D:\Program Files\Java\jre1.8\lib\resources.jar;D:\Program Files\Java\jre1.8\lib\rt.jar;D:\Program Files\Java\jre1.8\lib\sunrsasign.jar;D:\Program Files\Java\jre1.8\lib\jsse.jar;D:\Program Files\Java\jre1.8\lib\jce.jar;D:\Program Files\Java\jre1.8\lib\charsets.jar;D:\Program Files\Java\jre1.8\lib\jfr.jar;D:\Program Files\Java\jre1.8\classes, sun.jnu.encoding=GBK, sun.cpu.isalist=amd64, sun.boot.library.path=D:\Program Files\Java\jre1.8\bin, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle}, sun.arch.data={sun.arch.data.model=64}, path={path.separator=;}, java={java.class.path=C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\build\classes;D:\Program Files\apache-tomcat-7.0.69\lib\annotations-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-ant.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-ha.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-tribes.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina.jar;D:\Program Files\apache-tomcat-7.0.69\lib\ecj-4.4.2.jar;D:\Program Files\apache-tomcat-7.0.69\lib\el-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jasper-el.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jasper.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jsp-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\servlet-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-coyote.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-dbcp.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-es.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-fr.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-ja.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-jdbc.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-util.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat7-websocket.jar;D:\Program Files\apache-tomcat-7.0.69\lib\websocket-api.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\c3p0-0.9.5.2.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\commons-logging-1.2.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\hamcrest-core-1.3.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\junit-4.12.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\log4j-1.2.17.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\mchange-commons-java-0.2.11.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\mysql-connector-java-5.1.39-bin.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-aop-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-beans-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-context-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-core-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-expression-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-jdbc-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-test-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-tx-4.1.9.RELEASE.jar;/D:/Program Files/eclipse/configuration/org.eclipse.osgi/362/0/.cp/;/D:/Program Files/eclipse/configuration/org.eclipse.osgi/361/0/.cp/, java.ext.dirs=D:\Program Files\Java\jre1.8\lib\ext;C:\Windows\Sun\Java\lib\ext, java.runtime.name=Java(TM) SE Runtime Environment, java.runtime.version=1.8.0_92-b14, java.vendor=Oracle Corporation, java.specification.version=1.8, java.class.version=52.0, java.specification.name=Java Platform API Specification, java.vendor.url=http://java.oracle.com/, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.vm.version=25.92-b14, java.home=D:\Program Files\Java\jre1.8, java.endorsed.dirs=D:\Program Files\Java\jre1.8\lib\endorsed, java.version=1.8.0_92, java.vm.specification.version=1.8, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.vm.vendor=Oracle Corporation, java.vm.info=mixed mode, java.library.path=D:\Program Files\Java\jre1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre1.8/bin/server;D:/Program Files/Java/jre1.8/bin;D:/Program Files/Java/jre1.8/lib/amd64;D:\Program Files\Python35\Scripts\;D:\Program Files\Python35\;D:\Python27\;D:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_92\bin;C:\Program Files (x86)\Skype\Phone\;D:\Program Files\mysql-5.7.13-winx64\bin;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;d:\Ruby23-x64\bin;C:\Users\Zhenyu\AppData\Roaming\npm;D:\Program Files\eclipse;;., java.vm.specification.vendor=Oracle Corporation, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.io.tmpdir=C:\Users\Zhenyu\AppData\Local\Temp\}, file={file.separator=\, file.encoding.pkg=sun.io, file.encoding=GBK}, file.encoding={file.encoding.pkg=sun.io}, java.vendor.url={java.vendor.url.bug=http://bugreport.sun.com/bugreport/}, com.mchange.v2.log={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, java.ext={java.ext.dirs=D:\Program Files\Java\jre1.8\lib\ext;C:\Windows\Sun\Java\lib\ext}, sun.boot={sun.boot.library.path=D:\Program Files\Java\jre1.8\bin, sun.boot.class.path=D:\Program Files\Java\jre1.8\lib\resources.jar;D:\Program Files\Java\jre1.8\lib\rt.jar;D:\Program Files\Java\jre1.8\lib\sunrsasign.jar;D:\Program Files\Java\jre1.8\lib\jsse.jar;D:\Program Files\Java\jre1.8\lib\jce.jar;D:\Program Files\Java\jre1.8\lib\charsets.jar;D:\Program Files\Java\jre1.8\lib\jfr.jar;D:\Program Files\Java\jre1.8\classes}, java.specification={java.specification.version=1.8, java.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification}, sun.io.unicode={sun.io.unicode.encoding=UnicodeLittle}, os={os.version=6.1, os.name=Windows 7, os.arch=amd64}, sun.os={sun.os.patch.level=Service Pack 1}, com.mchange.v2={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, sun.boot.library={sun.boot.library.path=D:\Program Files\Java\jre1.8\bin}, sun.io={sun.io.unicode.encoding=UnicodeLittle}, java.runtime={java.runtime.version=1.8.0_92-b14, java.runtime.name=Java(TM) SE Runtime Environment}, java.class={java.class.path=C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\build\classes;D:\Program Files\apache-tomcat-7.0.69\lib\annotations-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-ant.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-ha.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina-tribes.jar;D:\Program Files\apache-tomcat-7.0.69\lib\catalina.jar;D:\Program Files\apache-tomcat-7.0.69\lib\ecj-4.4.2.jar;D:\Program Files\apache-tomcat-7.0.69\lib\el-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jasper-el.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jasper.jar;D:\Program Files\apache-tomcat-7.0.69\lib\jsp-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\servlet-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-api.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-coyote.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-dbcp.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-es.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-fr.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-i18n-ja.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-jdbc.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat-util.jar;D:\Program Files\apache-tomcat-7.0.69\lib\tomcat7-websocket.jar;D:\Program Files\apache-tomcat-7.0.69\lib\websocket-api.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\c3p0-0.9.5.2.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\commons-logging-1.2.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\hamcrest-core-1.3.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\junit-4.12.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\log4j-1.2.17.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\mchange-commons-java-0.2.11.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\mysql-connector-java-5.1.39-bin.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-aop-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-beans-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-context-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-core-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-expression-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-jdbc-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-test-4.1.9.RELEASE.jar;C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction\WebContent\WEB-INF\lib\spring-tx-4.1.9.RELEASE.jar;/D:/Program Files/eclipse/configuration/org.eclipse.osgi/362/0/.cp/;/D:/Program Files/eclipse/configuration/org.eclipse.osgi/361/0/.cp/, java.class.version=52.0}, com.mchange={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, java.awt={java.awt.printerjob=sun.awt.windows.WPrinterJob, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment}, java.vm.specification={java.vm.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8}, sun.os.patch={sun.os.patch.level=Service Pack 1}, java.library={java.library.path=D:\Program Files\Java\jre1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre1.8/bin/server;D:/Program Files/Java/jre1.8/bin;D:/Program Files/Java/jre1.8/lib/amd64;D:\Program Files\Python35\Scripts\;D:\Program Files\Python35\;D:\Python27\;D:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_92\bin;C:\Program Files (x86)\Skype\Phone\;D:\Program Files\mysql-5.7.13-winx64\bin;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;d:\Ruby23-x64\bin;C:\Users\Zhenyu\AppData\Roaming\npm;D:\Program Files\eclipse;;.}, sun.arch={sun.arch.data.model=64}, com.mchange.v2.log.jdk14logging={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, java.vendor={java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.vendor.url=http://java.oracle.com/}, java.io={java.io.tmpdir=C:\Users\Zhenyu\AppData\Local\Temp\}, java.endorsed={java.endorsed.dirs=D:\Program Files\Java\jre1.8\lib\endorsed}, sun.jnu={sun.jnu.encoding=GBK}, user={user.name=Zhenyu, user.timezone=Asia/Shanghai, user.country=CN, user.dir=C:\Users\Zhenyu\MyPrograms\Java\Spring_Transaction, user.home=C:\Users\Zhenyu, user.language=zh, user.script=, user.variant=}, sun.cpu={sun.cpu.endian=little, sun.cpu.isalist=amd64}, awt={awt.toolkit=sun.awt.windows.WToolkit}} ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.cfg.MConfig" timestamp="1472110391351" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Could not find resource path text file for path '/com/mchange/v2/cfg/vmConfigResourcePaths.txt'. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.cfg.MConfig" timestamp="1472110391352" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Added paths from resource path text file at '/mchange-config-resource-paths.txt']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.cfg.MConfig" timestamp="1472110391352" level="DEBUG" thread="main">
+<log4j:message><![CDATA[The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.cfg.MConfig" timestamp="1472110391352" level="DEBUG" thread="main">
+<log4j:message><![CDATA[The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.cfg.MConfig" timestamp="1472110391353" level="DEBUG" thread="main">
+<log4j:message><![CDATA[The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.cfg.MConfig" timestamp="1472110391353" level="DEBUG" thread="main">
+<log4j:message><![CDATA[The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1472110393991" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean" timestamp="1472110394105" level="DEBUG" thread="main">
+<log4j:message><![CDATA[MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=2s0bjz9i1hfzw5055y9tu|470f1802,name=2s0bjz9i1hfzw5055y9tu|470f1802 registered.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean" timestamp="1472110394258" level="DEBUG" thread="main">
+<log4j:message><![CDATA[MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=2s0bjz9i1hfzw5055y9tu|470f1802,name=2s0bjz9i1hfzw5055y9tu|470f1802 unregistered, in order to be reregistered after update.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean" timestamp="1472110394258" level="DEBUG" thread="main">
+<log4j:message><![CDATA[MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=2s0bjz9i1hfzw5055y9tu|470f1802,name=2s0bjz9i1hfzw5055y9tu|470f1802 registered.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394269" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'dataSource' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394303" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Finished creating instance of bean 'dataSource']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394304" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'accountService']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394304" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'accountService']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394305" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'accountService' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394309" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating shared instance of singleton bean 'accountDao']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394309" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Creating instance of bean 'accountDao']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394317" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Eagerly caching bean 'accountDao' to allow for resolving potential circular references]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394324" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Invoking afterPropertiesSet() on bean with name 'accountDao']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.context.support.GenericApplicationContext" timestamp="1472110394328" level="WARN" thread="main">
+<log4j:message><![CDATA[Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountService' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'accountDao' while setting bean property 'accountDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountDao' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: 'dataSource' or 'jdbcTemplate' is required]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.beans.factory.support.DefaultListableBeanFactory" timestamp="1472110394328" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b53f538: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,accountService,accountDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.TestContextManager" timestamp="1472110394331" level="ERROR" thread="main">
+<log4j:message><![CDATA[Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7f560810] to prepare test instance [com.imooc.test.SpringTransactionDemo@3a82f6ef]]]></log4j:message>
+<log4j:throwable><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:94)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:259)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:261)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:219)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountService' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'accountDao' while setting bean property 'accountDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountDao' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: 'dataSource' or 'jdbcTemplate' is required
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1475)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1220)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:68)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:86)
+	... 25 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountDao' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: 'dataSource' or 'jdbcTemplate' is required
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 43 more
+Caused by: java.lang.IllegalArgumentException: 'dataSource' or 'jdbcTemplate' is required
+	at org.springframework.jdbc.core.support.JdbcDaoSupport.checkDaoConfig(JdbcDaoSupport.java:111)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1631)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1568)
+	... 50 more
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="org.springframework.test.context.support.DirtiesContextTestExecutionListener" timestamp="1472110394412" level="DEBUG" thread="main">
+<log4j:message><![CDATA[After test class: context [DefaultTestContext@6cc4c815 testClass = SpringTransactionDemo, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@100fc185 testClass = SpringTransactionDemo, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], dirtiesContext [false].]]></log4j:message>
+</log4j:event>
+
